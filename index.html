@@ -7,5 +7,46 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <header>
+        <img src="./assets/Gitfav.svg" alt="" />
+
+        <div class="search">
+          <label for="input-search">Digite o Github username que quer favoritar</label>
+          <input id="input-search" type="text" placeholder="Digite o Github username que quer favoritar" />
+          <button>
+            <img src="./assets/star.svg" alt="" />
+            Favoritar
+          </button>
+        </div>
+      </header>
+
+      <table>
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Repositories</th>
+            <th>Followers</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <td class="user">
+            <img src="https://github.com/agleymelo.png" alt="Agley's imagem profile" />
+            <a href="http://github.com/agleymelo" target="_blank" rel="noopener noreferrer">
+              <p>Agleylson Melo</p>
+              <span>/agleymelo</span>
+            </a>
+          </td>
+          <td class="repositories">123</td>
+          <td class="followers">3213</td>
+          <td>
+            <button class="remove">Remover</button>
+          </td>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
