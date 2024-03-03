@@ -1,5 +1,22 @@
+:root {
+  font-size: 62.5%;
+
+  --bg-body: #2f2f33;
+  --bg-input: #06181c;
+  --bg-button: #065e7c;
+
+  --tt-white: #e1e1e6;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  background: var(--bg-body);
+  color: var(--tt-white);
 }
