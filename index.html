@@ -21,7 +21,7 @@
         <img src="./assets/Gitfav.svg" alt="" />
 
         <div class="search">
-          <label for="input-search">Digite o Github username que quer favoritar</label>
+          <label for="input-search" class="sr-only">Digite o Github username que quer favoritar</label>
           <input id="input-search" type="text" placeholder="Digite o Github username que quer favoritar" />
           <button>
             <img src="./assets/star.svg" alt="" />
@@ -55,8 +55,27 @@
               <button class="remove">Remover</button>
             </td>
           </tr>
+          <tr>
+            <td class="user">
+              <img src="https://github.com/agleymelo.png" alt="Agley's imagem profile" />
+              <a href="http://github.com/agleymelo" target="_blank" rel="noopener noreferrer">
+                <p>Agleylson Melo</p>
+                <span>/agleymelo</span>
+              </a>
+            </td>
+            <td class="repositories">123</td>
+            <td class="followers">3213</td>
+            <td>
+              <button class="remove">Remover</button>
+            </td>
+          </tr>
         </tbody>
       </table>
+
+      <div class="empty-state">
+        <img src="assets/Estrela.svg" alt="Star with surprise expression" />
+        <p>There are no favorites yet</p>
+      </div>
     </div>
   </body>
 </html>
