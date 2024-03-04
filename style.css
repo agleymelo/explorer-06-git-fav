@@ -76,6 +76,7 @@ header {
 
 .search button {
   border: 0;
+  border-radius: 0.8rem;
 
   height: 4.8rem;
   width: 17rem;
@@ -214,6 +215,10 @@ td .remove {
   font-family: var(--secondary-font);
   color: #4e5455;
   background-color: #030b0d;
+
+  border-left: 1px solid var(--table-border);
+  border-right: 1px solid var(--table-border);
+  border-bottom: 1px solid var(--table-border);
 }
 
 .empty-state svg {

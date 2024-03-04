@@ -14,6 +14,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <script type="module" src="./js/index.js" defer></script>
   </head>
   <body>
     <div id="app">
@@ -21,11 +23,11 @@
         <img src="./assets/Gitfav.svg" alt="" />
 
         <div class="search">
-          <label for="input-search" class="sr-only">Digite o Github username que quer favoritar</label>
-          <input id="input-search" type="text" placeholder="Digite o Github username que quer favoritar" />
+          <label for="input-search" class="sr-only">Enter the Github username you want to favorite</label>
+          <input id="input-search" type="text" placeholder="Enter the Github username you want to favorite" />
           <button>
             <img src="./assets/star.svg" alt="" />
-            Favoritar
+            Favorite
           </button>
         </div>
       </header>
@@ -40,36 +42,7 @@
           </tr>
         </thead>
 
-        <tbody>
-          <tr>
-            <td class="user">
-              <img src="https://github.com/agleymelo.png" alt="Agley's imagem profile" />
-              <a href="http://github.com/agleymelo" target="_blank" rel="noopener noreferrer">
-                <p>Agleylson Melo</p>
-                <span>/agleymelo</span>
-              </a>
-            </td>
-            <td class="repositories">123</td>
-            <td class="followers">3213</td>
-            <td>
-              <button class="remove">Remover</button>
-            </td>
-          </tr>
-          <tr>
-            <td class="user">
-              <img src="https://github.com/agleymelo.png" alt="Agley's imagem profile" />
-              <a href="http://github.com/agleymelo" target="_blank" rel="noopener noreferrer">
-                <p>Agleylson Melo</p>
-                <span>/agleymelo</span>
-              </a>
-            </td>
-            <td class="repositories">123</td>
-            <td class="followers">3213</td>
-            <td>
-              <button class="remove">Remover</button>
-            </td>
-          </tr>
-        </tbody>
+        <tbody></tbody>
       </table>
 
       <div class="empty-state">
